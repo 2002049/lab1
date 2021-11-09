@@ -36,7 +36,6 @@ def calculate():
     ave = float(ave/4)
     '''۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝'''
     #2
-    print(float(ave))
     if float(ave) > float("74"):
         remarks= "Passed"
     else:
@@ -51,7 +50,6 @@ while repeat=="Y" or repeat=="y":
     clean()
     col_inputs()
     calculate()
-    print(remarks)
     print("░▓░▓░▓░▓░▓ Average Grade: " + str(ave)+"\t"+remarks+"\n")
     print("░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓")
     repeat = input("░▓░▓░▓░▓░▓ Calculate new Student: ([Y]/[N]) ")
