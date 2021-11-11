@@ -4,7 +4,8 @@ import os
 import platform
 import time
 
-prelims =""; midterm=""; semifinals=""; final=""; ave="";remarks=""
+
+prelims =""; midterm=""; semifinals=""; final=""; ave="";remarks=""; EqGrade=""
 
 #clean the screen before starting the code
 def clean():
@@ -35,13 +36,11 @@ def calculate():
     ave = float(prelims+midterm+semifinals+finals)
     ave = float(ave/4)
     '''۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝۝'''
-
     #2
     if float(ave) > float("74"):
         remarks= "Passed"
     else:
         remarks = "Failed"
-
     # To get Equivalent Grade
     if(ave >= 99 and ave <= 100):
         EqGrade = "A"
